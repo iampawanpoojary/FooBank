@@ -6,6 +6,9 @@
 - Html version of the jupyter notebook is included
 - *foobank_beam_pipeline.py* consists of unfinished apache beam pipeline which i thought would be fun to do, but did not have enough time to finish. However its a dataflow pipeline which does a left join (cogroupbykey) on loan and customer data (sample data in code), and stores them into bigquery.
 
+##### Link to jupyternotebook
+https://nbviewer.jupyter.org/github/iampawanpoojary/FooBank/blob/main/foobank.ipynb
+
 *To run the dataflow pipeline*
 ```
 python -m foobank_beam_pipeline.py 
